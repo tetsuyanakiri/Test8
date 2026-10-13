@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #000000;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #131b2e;
+  --color-on-primary-container: #7c839a;
+  --color-primary-fixed: #dbe2fb;
+  --color-primary-fixed-dim: #bfc6df;
+
+  --color-secondary: #735c00;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fed65b;
+  --color-on-secondary-container: #745c00;
+  --color-secondary-fixed: #ffe088;
+  --color-on-secondary-fixed: #241a00;
+
+  --color-tertiary: #000000;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #410002;
+  --color-tertiary-fixed: #ffdad6;
+  --color-on-tertiary-container: #e4524a;
+
+  --color-surface: #fbf9f5;
+  --color-on-surface: #1b1c1a;
+  --color-surface-variant: #e4e2de;
+  --color-on-surface-variant: #45464c;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3ef;
+  --color-surface-container: #efeeea;
+  --color-surface-container-high: #eae8e4;
+  --color-surface-container-highest: #e4e2de;
+
+  --color-outline: #76777d;
+  --color-outline-variant: #c6c6cd;
+
+  --spacing-gutter: 1.5rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+
+  --font-headline-xl: "Epilogue", "Sarabun", sans-serif;
+  --font-headline-md: "Epilogue", "Sarabun", sans-serif;
+  --font-display-lg: "Epilogue", "Sarabun", sans-serif;
+  --font-title-lg: "Plus Jakarta Sans", "Sarabun", sans-serif;
+  --font-body-lg: "Plus Jakarta Sans", "Sarabun", sans-serif;
+  --font-body-md: "Plus Jakarta Sans", "Sarabun", sans-serif;
+  --font-body-sm: "Plus Jakarta Sans", "Sarabun", sans-serif;
+  --font-label-md: "Space Grotesk", "Sarabun", sans-serif;
+  --font-label-sm: "Space Grotesk", "Sarabun", sans-serif;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", "Sarabun", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #fbf9f5;
+    color: #1b1c1a;
+  }
+}
+
+/* Material symbols outlined styling */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars for clean archive aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #efeeea;
+}
+::-webkit-scrollbar-thumb {
+  background: #c6c6cd;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #76777d;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "มรดกสยาม - Siam Heritage Archive",
+  "description": "คลังข้อมูลมรดกทางวัฒนธรรม ประณีตศิลป์ และสถาปัตยกรรมไทยชั้นสูงแห่งสยามประเทศ พร้อมระบบคลังสื่อมรดกไทยและสารคดี 4K",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
